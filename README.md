@@ -1,2 +1,2 @@
-# headhuntr-io
+# headhuntr.io
 Placeholder project for stuffs like planning, sketches, design, architecture, etc...
