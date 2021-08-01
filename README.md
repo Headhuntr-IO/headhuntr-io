@@ -1,3 +1,3 @@
 # headhuntr.io
 Placeholder project for stuffs like planning, sketches, design, architecture, etc...
-![Sketch for Search](images/draft_search.jpg)
+![Architecture](images/HH2ArchitectureV0.1.png)
