@@ -7,7 +7,7 @@ This project will be mainly for demonstrating my skills in the following area:
 - Tensorflow Certified Developer
 
 
-![Architecture](images/HH2ArchitectureV0.0.1.png)
+![Architecture](images/HH2ArchitectureV1.0.0.png)
 
 ## Phase 1: Create the Basic App
 This basically covers the AWS Developer certification
