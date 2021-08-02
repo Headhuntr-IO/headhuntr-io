@@ -17,12 +17,14 @@ This basically covers the AWS Developer certification
 - setup a build pipeline for the FE+BE using Code Pipeline
 - persistence with DynamoDB
 - search with ES
+- monitoring with Cloudwatch and Xray
 
 ## Phase 2: Data Processing and Analytics
 This is where we practice for the AWS Data Analytics specialty
 - intake for client logs using Kinesis Firehose via Lambda@Edge
 - use Glue and Athena to analyze our candidates data
 - use Glue to populate the search database
+- job coordination via Step Function
 - app dashboard using Quicksight
 
 ## Phase 3: Machine Learning
