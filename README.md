@@ -15,10 +15,12 @@ This basically covers the AWS Developer certification
 - simple React + Amplify app with a basic Cognito registration+authentication
 - setup a BE using SAM and expose it using AppSync
 - setup a build pipeline for the FE+BE using Code Pipeline
+- persistence with DynamoDB
+- search with ES
 
 ## Phase 2: Data Processing and Analytics
 This is where we practice for the AWS Data Analytics specialty
-- intake fo client logs using Kinesis Firehose
+- intake for client logs using Kinesis Firehose via Lambda@Edge
 - use Glue and Athena to analyze our candidates data
 - use Glue to populate the search database
 - app dashboard using Quicksight
