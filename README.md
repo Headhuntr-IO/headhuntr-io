@@ -31,3 +31,7 @@ This is where we practice for the AWS Data Analytics specialty
 ## Phase 3: Machine Learning
 This is the icing of the cake where we obviously would get the Certified Machine Learning Specialization certificate and Tensorflow
 - use NLP to tag our source data
+
+
+#### Resources
+- [Firehose with Lambda@Edge](https://aws.amazon.com/blogs/networking-and-content-delivery/global-data-ingestion-with-amazon-cloudfront-and-lambdaedge/)
