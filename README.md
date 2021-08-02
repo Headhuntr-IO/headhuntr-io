@@ -18,6 +18,7 @@ This basically covers the AWS Developer certification
 - persistence with DynamoDB
 - search with ES
 - monitoring with Cloudwatch and Xray
+- event notification with SNS
 
 ## Phase 2: Data Processing and Analytics
 This is where we practice for the AWS Data Analytics specialty
