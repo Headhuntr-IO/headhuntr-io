@@ -18,6 +18,7 @@ This basically covers the AWS Developer certification
 
 ## Phase 2: Data Processing
 This is where we practice for the AWS Data Analytics specialty
+- intake fo client logs using Kinesis Firehose
 - use Glue and Athena to analyze our candidates data
 - use Glue to populate the search database
 
