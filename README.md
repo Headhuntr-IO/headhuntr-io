@@ -35,3 +35,4 @@ This is the icing of the cake where we obviously would get the Certified Machine
 
 #### Resources
 - [Firehose with Lambda@Edge](https://aws.amazon.com/blogs/networking-and-content-delivery/global-data-ingestion-with-amazon-cloudfront-and-lambdaedge/)
+- [FastAPI+Tensorflow+Docker](https://towardsdatascience.com/tensorflow-model-deployment-using-fastapi-docker-4b398251af75)
