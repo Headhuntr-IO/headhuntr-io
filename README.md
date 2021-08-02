@@ -16,11 +16,12 @@ This basically covers the AWS Developer certification
 - setup a BE using SAM and expose it using AppSync
 - setup a build pipeline for the FE+BE using Code Pipeline
 
-## Phase 2: Data Processing
+## Phase 2: Data Processing and Analytics
 This is where we practice for the AWS Data Analytics specialty
 - intake fo client logs using Kinesis Firehose
 - use Glue and Athena to analyze our candidates data
 - use Glue to populate the search database
+- app dashboard using Quicksight
 
 ## Phase 3: Machine Learning
 This is the icing of the cake where we obviously would get the Certified Machine Learning Specialization certificate and Tensorflow
