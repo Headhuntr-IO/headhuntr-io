@@ -25,7 +25,7 @@ This is where we practice for the AWS Data Analytics specialty
 - intake for client logs using Kinesis Firehose via Lambda@Edge
 - use Glue and Athena to analyze our candidates data
 - use Glue to populate the search database
-- job coordination via Step Function
+- job coordination via Step Function (Possible initiated by EventBridge or SQS - from somewhere in the server)
 - app dashboard using Quicksight
 
 ## Phase 3: Machine Learning
