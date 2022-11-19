@@ -1,23 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T23:58:20.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="K3Vp7QtzVpgeMukcWEXb" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-19T00:21:23.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kKD_wClhQ_4sQyXDf-8s" version="20.4.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1632" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Step Function" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="640" as="geometry" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Step Function&#xa;name: hh_prod_data_reload" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="170" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Lambda" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="80" y="100" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-16" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0.5;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="170" as="sourcePoint" />
+            <mxPoint x="250" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-17" value="2. Create a new ES Cluster" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-16">
+          <mxGeometry x="-0.2881" y="1" relative="1" as="geometry">
+            <mxPoint x="-23" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-44" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0.49;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="420" as="sourcePoint" />
+            <mxPoint x="250" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-45" value="6. Clear Cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-44">
+          <mxGeometry x="-0.4432" y="2" relative="1" as="geometry">
+            <mxPoint x="-32" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Lambda&#xa;name: hh-prod-coordinator" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="80" width="100" height="640" as="geometry" />
         </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-21" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;elbow=vertical;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="3gp_BnoLobYNPqWKKOBE-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="220" as="sourcePoint" />
+            <mxPoint x="210" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-22" value="Check for files that are missing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-21">
+          <mxGeometry x="0.0953" y="1" relative="1" as="geometry">
+            <mxPoint x="-175" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-29" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=diamondThin;startFill=0;endSize=6;startSize=10;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="3gp_BnoLobYNPqWKKOBE-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="180" as="sourcePoint" />
+            <mxPoint x="210" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-30" value="Create Cluster if needed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-29">
+          <mxGeometry x="-0.1168" y="1" relative="1" as="geometry">
+            <mxPoint x="-282" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-33" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=diamondThin;startFill=0;endSize=6;startSize=10;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="310" as="sourcePoint" />
+            <mxPoint x="210" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-34" value="Create cluster if needed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-33">
+          <mxGeometry x="-0.2506" y="-2" relative="1" as="geometry">
+            <mxPoint x="20" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-35" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="350" as="sourcePoint" />
+            <mxPoint x="210" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-36" value="Add Steps for Processing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-35">
+          <mxGeometry x="-0.586" y="-1" relative="1" as="geometry">
+            <mxPoint x="37" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-46" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="3gp_BnoLobYNPqWKKOBE-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="430" as="sourcePoint" />
+            <mxPoint x="210" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-47" value="Call API to Release Memory Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-46">
+          <mxGeometry x="-0.8148" y="1" relative="1" as="geometry">
+            <mxPoint x="26" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3gp_BnoLobYNPqWKKOBE-1" value="Redshift" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="80" width="100" height="640" as="geometry" />
+          <mxGeometry x="710" y="80" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-31" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=diamondThin;startFill=0;endSize=6;startSize=10;rounded=0;entryX=0.494;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="3gp_BnoLobYNPqWKKOBE-1" target="3gp_BnoLobYNPqWKKOBE-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="250" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-32" value="Copy data to S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-31">
+          <mxGeometry x="-0.0948" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3gp_BnoLobYNPqWKKOBE-3" value="S3&#xa;bucket: io.headhuntr.prod.data-processor&#xa;dir: temp/" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="80" width="270" height="640" as="geometry" />
+          <mxGeometry x="820" y="80" width="270" height="640" as="geometry" />
         </mxCell>
         <mxCell id="3gp_BnoLobYNPqWKKOBE-5" value="DevOps" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="140" width="30" height="60" as="geometry" />
+          <mxGeometry x="20" y="130" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3gp_BnoLobYNPqWKKOBE-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3gp_BnoLobYNPqWKKOBE-5" target="3gp_BnoLobYNPqWKKOBE-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -28,6 +128,105 @@
         <mxCell id="3gp_BnoLobYNPqWKKOBE-10" value="(Optional) 1. Clear files from S3 Working Directory OR Copy files from other Working Directory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-9">
           <mxGeometry x="-0.0413" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-13" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.02;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3gp_BnoLobYNPqWKKOBE-5" target="3gp_BnoLobYNPqWKKOBE-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="190" as="sourcePoint" />
+            <mxPoint x="160" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-14" value="start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-13">
+          <mxGeometry x="-0.0962" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-15" value="Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="80" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-18" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0.5;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="280" as="sourcePoint" />
+            <mxPoint x="470" y="280.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-19" value="3. Copy missing data from RS to S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-18">
+          <mxGeometry x="-0.2881" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-23" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;elbow=vertical;entryX=0.5;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3gp_BnoLobYNPqWKKOBE-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="320" as="sourcePoint" />
+            <mxPoint x="620" y="320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-24" value="UNLOAD query for all missing files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-23">
+          <mxGeometry x="0.0953" y="1" relative="1" as="geometry">
+            <mxPoint x="-59" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-25" value="EMR Cluster" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-26" value="Opensearch Cluster" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="80" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-27" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0.5;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="380" as="sourcePoint" />
+            <mxPoint x="470" y="380.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-28" value="4. Create EMR Cluster" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-27">
+          <mxGeometry x="-0.2881" y="1" relative="1" as="geometry">
+            <mxPoint x="-33" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-37" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0.499;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3gp_BnoLobYNPqWKKOBE-25" target="3gp_BnoLobYNPqWKKOBE-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="440" as="sourcePoint" />
+            <mxPoint x="790" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="442" />
+              <mxPoint x="840" y="440" />
+              <mxPoint x="890" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-38" value="Retrieve data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-37">
+          <mxGeometry x="0.2651" y="2" relative="1" as="geometry">
+            <mxPoint x="-165" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-39" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;" edge="1" parent="1" source="3gp_BnoLobYNPqWKKOBE-25" target="3gp_BnoLobYNPqWKKOBE-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="480" as="sourcePoint" />
+            <mxPoint x="800" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-40" value="Copy data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-39">
+          <mxGeometry x="-0.7798" relative="1" as="geometry">
+            <mxPoint x="-43" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-42" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0.49;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.946;exitY=0.705;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3gp_BnoLobYNPqWKKOBE-12" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="sourcePoint" />
+            <mxPoint x="370" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gp_BnoLobYNPqWKKOBE-43" value="5. Start Processing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3gp_BnoLobYNPqWKKOBE-42">
+          <mxGeometry x="-0.5066" relative="1" as="geometry">
+            <mxPoint x="-13" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
