@@ -1,4 +1,7 @@
 # Headhuntr.io
+JIRA Board
+- [MVP](https://headhuntr.atlassian.net/jira/software/projects/MVP/boards/1)
+
 This project will be mainly for demonstrating my skills in the following area:
 - AWS Certified Solutions Architect Professional
 - AWS Certified Developer Associate
