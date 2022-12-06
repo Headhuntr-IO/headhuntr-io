@@ -3,8 +3,8 @@ plugins {
     id("org.jetbrains.kotlin.kapt") version "1.6.21"
     id("org.jetbrains.kotlin.plugin.allopen") version "1.6.21"
     id("groovy") 
+    id("io.micronaut.library") version "3.6.3"
     id("com.github.johnrengelman.shadow") version "7.1.2"
-    id("io.micronaut.application") version "3.6.3"
 }
 
 version = "0.1"
@@ -15,6 +15,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.amazonaws:aws-lambda-java-events:3.11.0")
     implementation("io.micronaut:micronaut-jackson-databind")
     implementation("io.micronaut.aws:micronaut-aws-sdk-v2")
     implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
@@ -25,6 +26,8 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
 
+    implementation("io.micronaut.aws:micronaut-function-aws")
+
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
     testImplementation("io.micronaut:micronaut-function")
@@ -34,9 +37,6 @@ dependencies {
 }
 
 
-application {
-    mainClass.set("io.headhuntr.poc.localstack.ApplicationKt")
-}
 java {
     sourceCompatibility = JavaVersion.toVersion("17")
 }
@@ -53,7 +53,6 @@ tasks {
         }
     }
 }
-graalvmNative.toolchainDetection = false
 micronaut {
     runtime("lambda_java")
     testRuntime("spock2")
@@ -61,15 +60,6 @@ micronaut {
         incremental(true)
         annotations("io.headhuntr.poc.localstack.*")
     }
-}
-
-
-tasks.named("dockerfileNative") {
-    args(
-        "-XX:MaximumHeapSizePercent=80",
-        "-Dio.netty.allocator.numDirectArenas=0",
-        "-Dio.netty.noPreferDirect=true"
-    )
 }
 
 
