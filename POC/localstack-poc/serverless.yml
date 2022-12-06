@@ -1,0 +1,36 @@
+
+
+service: localstack-poc
+
+plugins:
+  - serverless-localstack
+
+custom:
+  localstack:
+    stages:
+      - local
+    host: http://localhost
+    edgePort: 4566
+    autostart: true
+    networks:
+      - host
+      - overlay
+      - my_custom_network
+    lambda:
+      mountCode: true
+    docker:
+      sudo: False
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http: # for API GW v1 integration
+          method: POST
+          path: /my/path1
