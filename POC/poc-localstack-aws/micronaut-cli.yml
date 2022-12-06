@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.headhuntr.poc.localstack
+testFramework: spock
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, aws-lambda, aws-v2-sdk, dynamodb, gradle, jackson-databind, kotlin, kotlin-application, kotlin-build, logback, micronaut-build, readme, shade, spock, yaml]
